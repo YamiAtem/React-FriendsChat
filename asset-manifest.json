@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-FriendsChat/static/css/main.af479c2b.chunk.css",
+    "main.js": "/React-FriendsChat/static/js/main.3878f6ba.chunk.js",
+    "main.js.map": "/React-FriendsChat/static/js/main.3878f6ba.chunk.js.map",
+    "runtime-main.js": "/React-FriendsChat/static/js/runtime-main.5814f584.js",
+    "runtime-main.js.map": "/React-FriendsChat/static/js/runtime-main.5814f584.js.map",
+    "static/js/2.190252fa.chunk.js": "/React-FriendsChat/static/js/2.190252fa.chunk.js",
+    "static/js/2.190252fa.chunk.js.map": "/React-FriendsChat/static/js/2.190252fa.chunk.js.map",
+    "static/js/3.f07587d6.chunk.js": "/React-FriendsChat/static/js/3.f07587d6.chunk.js",
+    "static/js/3.f07587d6.chunk.js.map": "/React-FriendsChat/static/js/3.f07587d6.chunk.js.map",
+    "index.html": "/React-FriendsChat/index.html",
+    "static/css/main.af479c2b.chunk.css.map": "/React-FriendsChat/static/css/main.af479c2b.chunk.css.map",
+    "static/js/2.190252fa.chunk.js.LICENSE.txt": "/React-FriendsChat/static/js/2.190252fa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5814f584.js",
+    "static/js/2.190252fa.chunk.js",
+    "static/css/main.af479c2b.chunk.css",
+    "static/js/main.3878f6ba.chunk.js"
+  ]
+}
