@@ -1,15 +1,17 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 import "./App.css";
 
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
-import 'firebase/analytics';
 
 import SignIn from "./components/SignIn";
+import SignOut from "./components/SignOut";
+import ChatRoom from "./components/ChatRoom";
+
+import header_icon from "./header-icon.png"
 
 import { useAuthState } from 'react-firebase-hooks/auth';
-import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 if (!firebase.apps.length) {
   firebase.initializeApp({
@@ -26,20 +28,18 @@ if (!firebase.apps.length) {
 }
 
 const auth = firebase.auth();
-const firestore = firebase.firestore();
 
 function App() {
-
   const [user] = useAuthState(auth);
 
   return (
     <div className="App">
       <header>
-        <h1>⚛️🔥💬</h1>
-        {/*<SignOut />*/}
+        <h1>Friends Chat 💬</h1>
+        <SignOut />
       </header>
       <section>
-        <SignIn />
+        {user ? <ChatRoom /> : <SignIn />}
       </section>
     </div>
   );
