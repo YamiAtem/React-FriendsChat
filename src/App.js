@@ -9,8 +9,6 @@ import SignIn from "./components/SignIn";
 import SignOut from "./components/SignOut";
 import ChatRoom from "./components/ChatRoom";
 
-import header_icon from "./header-icon.png"
-
 import { useAuthState } from 'react-firebase-hooks/auth';
 
 if (!firebase.apps.length) {
